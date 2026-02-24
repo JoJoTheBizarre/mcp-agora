@@ -49,11 +49,7 @@ _NAMES = [
 
 
 def generate_unique_name(taken: set[str]) -> str:
-    """Pick a random fun name that is not in *taken*.
-
-    If the base name is taken, append an incrementing integer suffix
-    (e.g. 'Orion-2', 'Orion-3') until a free slot is found.
-    """
+    """Pick a random fun name that is not in *taken*."""
     base = random.choice(_NAMES)
 
     if base not in taken:

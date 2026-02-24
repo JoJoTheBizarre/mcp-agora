@@ -4,11 +4,10 @@ from .exceptions import (
     AgentAlreadySubscribedError,
     AgentNotFoundError,
     BufferFullError,
-    InvalidTokenError,
 )
 from .models import (
     AgentCard,
-    AgentIdentity,
+    AgentInfo,
     BufferConfig,
     Message,
     MessageType,
@@ -18,14 +17,13 @@ from .models import (
 __all__ = [
     "MessageBuffer",
     "AgentCard",
-    "AgentIdentity",
+    "AgentInfo",
     "BufferConfig",
     "Message",
-    "MessageView",
     "MessageType",
+    "MessageView",
     "AgoraError",
     "AgentNotFoundError",
     "AgentAlreadySubscribedError",
     "BufferFullError",
-    "InvalidTokenError",
 ]
