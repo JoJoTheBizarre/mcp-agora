@@ -1,11 +1,3 @@
-"""
-Fun name generator for Agora agents.
-
-Names are drawn from a curated word list (space / mythology theme to fit
-the "Agora" vibe). Uniqueness is enforced by the MessageBuffer, which
-passes the set of already-taken names here.
-"""
-
 import random
 
 _NAMES = [
